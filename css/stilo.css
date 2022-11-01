@@ -1,3 +1,7 @@
+body {
+  font-family: "Exo 2", sans-serif;
+}
+
 .background {
   background-color: #2e2d4c;
   background-image: url(../img/background\ stars.jpg);
@@ -5,10 +9,15 @@
 }
 
 .topo img {
+  filter: grayscale(0.4);
   width: 280px;
 
   float: left;
   padding: 20px;
+}
+
+.topo img :hover {
+  filter: none;
 }
 
 .cabeçalho {
@@ -19,6 +28,7 @@
 }
 
 .conteudo {
+  line-height: 2.5rem;
   width: 50%;
   border-radius: 30px;
   margin: 120px auto;
@@ -55,7 +65,14 @@
 }
 
 .titulo {
+  font-family: "Fjalla One", sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 1.5rem;
+}
+
+.habilidades progress {
+  width: 300px;
+  accent-color: #2e2d4c;
+  display: inline-block;
 }
