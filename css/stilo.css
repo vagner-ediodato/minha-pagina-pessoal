@@ -1,10 +1,12 @@
-body {
+.background {
   background-color: #2e2d4c;
+  background-image: url(../img/background\ stars.jpg);
+  background-attachment: fixed;
 }
 
-.foto {
+.topo img {
   width: 280px;
-  text-align: center;
+
   float: left;
   padding: 20px;
 }
@@ -13,7 +15,7 @@ body {
   text-align: center;
   padding: 30px;
   color: aliceblue;
-  margin: 100px auto;
+  margin: auto;
 }
 
 .conteudo {
@@ -53,6 +55,7 @@ body {
 }
 
 .titulo {
-  margin-top: 50px;
-  font-size: 1.9rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
 }
