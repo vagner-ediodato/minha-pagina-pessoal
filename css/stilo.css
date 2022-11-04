@@ -97,9 +97,10 @@ body {
   opacity: 1;
 }
 .footer {
+  margin-top: 20px;
   color: white;
   position: relative;
-  padding: 120px;
+  padding: 50px;
   text-align: center;
   background-color: #1d1d29;
 }
