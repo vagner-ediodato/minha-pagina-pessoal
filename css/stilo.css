@@ -15,7 +15,6 @@ body {
   float: left;
   padding: 20px;
 }
-
 .topo img :hover {
   filter: none;
 }
@@ -75,4 +74,25 @@ body {
   width: 300px;
   accent-color: #2e2d4c;
   display: inline-block;
+}
+.btn-inicio {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  opacity: 0.5;
+  background-color: white;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 50%;
+  font-size: 3rem;
+  width: 45px;
+}
+.icone {
+  color: #2e2d4c;
+  font-size: 0.8em;
+}
+
+.btn-inicio :hover {
+  opacity: 1;
 }
