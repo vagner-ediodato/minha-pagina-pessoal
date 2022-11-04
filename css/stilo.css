@@ -96,3 +96,15 @@ body {
 .btn-inicio :hover {
   opacity: 1;
 }
+.footer {
+  color: white;
+  position: relative;
+  padding: 120px;
+  text-align: center;
+  background-color: #1d1d29;
+}
+.redes {
+  padding-top: 15px;
+  font-size: 2rem;
+  width: 100px;
+}
