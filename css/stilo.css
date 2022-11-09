@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Exo 2", sans-serif;
 }
@@ -28,13 +32,16 @@ body {
 
 .conteudo {
   line-height: 2.5rem;
-  width: 50%;
+  width: 55%;
   border-radius: 30px;
   margin: 120px auto;
   border-radius: 10px;
-  padding: 50px;
+  padding: 40px;
   background-color: white;
   margin: auto;
+}
+.navigation {
+  margin-bottom: 50px;
 }
 
 .navigation li {
@@ -59,10 +66,15 @@ body {
   text-decoration: underline;
 }
 
+.fonte-grande {
+  font-size: 1.5rem;
+}
 .fonte-media {
   font-size: 1.5rem;
 }
-
+.fonte-pequena {
+  font-size: 1.5rem;
+}
 .titulo {
   font-family: "Fjalla One", sans-serif;
   padding-top: 20px;
@@ -107,4 +119,52 @@ body {
   padding-top: 15px;
   font-size: 2rem;
   width: 100px;
+}
+@media (max-width: 720px) {
+  .body {
+    position: absolute;
+  }
+  .topo img {
+    width: 150px;
+  }
+  .cabeçalho h1 {
+    font-size: 30px;
+  }
+  .fonte-media {
+    font-size: 1.2rem;
+  }
+
+  .navigation {
+    margin-bottom: 0;
+  }
+  .conteudo {
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .navigation li {
+    display: inline-block;
+    width: 75px;
+
+    font-size: 0.8rem;
+  }
+  .topo img {
+    padding: 7px;
+    width: 100px;
+  }
+  .fonte-grande {
+    font-size: 0.9rem;
+  }
+
+  .titulo {
+    font-size: 1.1rem;
+  }
+  .habilidades progress {
+    width: 210px;
+  }
+  .fonte-pequena {
+    font-size: 0.9rem;
+  }
 }
